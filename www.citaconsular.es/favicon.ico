@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-ES" lang="es-ES">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="BOOKITIT" />
+        <meta name="keywords" content="BOOKITIT" />
+
+        <!-- Page Title-->
+        <title>.:: BOOKITIT ::.</title>
+
+                    <link rel="SHORTCUT ICON" href="/images/header/shorticon.ico" />
+                            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            
+        <!-- Fixed css files -->
+        <link href="/css/footer.css?v=4" rel="stylesheet" type="text/css" />
+        <link href="/css/header.css?v=4" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css?v=4" rel="stylesheet" type="text/css" />
+<link href="/css/stylegk.css?v=4" rel="stylesheet" type="text/css" />
+        
+        <!-- Variable js files -->
+        <script type="text/javascript">
+            sSave = "Guardar";
+            sAccept = "Aceptar";
+            sCancel = "Cancelar";
+            sDelete = "Eliminar";
+            sConfirm = "Confirmar";
+            sUnConfirm = "Rechazar";
+            sRequiredName = "Nombre necesario";
+            sCharge = "Cobrar";
+            sLang = "es";
+        </script>
+        
+        <script type="text/javascript" src="/js/jquery/jquery-1.4.2.min.js?v=4"></script>        <script type="text/javascript" src="/js/jquery/jquery-ui-1.8.20.custom.min.js?v=4"></script>        <script type="text/javascript" src="/js/constants.js?v=4"></script>        <script type="text/javascript" src="/js/functions.js?v=4"></script>        <script type="text/javascript" src="/js/behaviours.js?v=4"></script>        <script type="text/javascript" src="/js/alerts/jquery.alerts.js?v=4"></script>
+        <link href="/js/alerts/jquery.alerts.css?v=4" rel="stylesheet" type="text/css" media="screen" />
+            </head>
+    <body class="cP">
+        <div id="idRecipient">
+            <div id="idHeader">
+        <div id="idMenuLeft" class="clsHP"></div>
+
+        <div id="idMenuRight" class="clsHPR">
+            <div id="idLang"  class="clsHP" >
+                
+<div id="idLanguage" class="clsTextWhite">
+    <a href="#">
+        Español        <small>▼</small>
+    </a>
+
+    <div id="idListLanguages" class="clsMenuCombo">    
+        <ul>
+                                <li>
+                        <a class="" style="color: #505050;" href="/VGFXbAl3UD8LEwZqAzIJY1BrDnMEbApsB2RfclZ1BWVWQAg-CDtSbg8_CG8HMgMiUD5ZFwUpATIBQV5lAXUOLlRrV3AJIVAoC2cGQANnCT1QOA" target="_self">                    
+                            Inglés                        </a>
+                    </li>
+                                    <li>
+                        <a class="" style="color: #505050;" href="/VWAEIgxyAm0NFQllVGVRO1VuXSAEbFg-AGMFKAAjVDQCFAM1CzgBPV1tBGMANQcmUz1ZF1V5CjkBQVVuAHRWdlVqBCMMJAJ6DWEJT1QwUWVVPQ" target="_self">                    
+                            Español                        </a>
+                    </li>
+                                    <li>
+                        <a class="" style="color: #505050;" href="/BSVQcQB-Am1cRFI-ADEHbQE6AH0BaQxqXD8EKQckB2dQRgk_XG8FOVtrUTZRZAYnA21dEwUpWmlVFVBrUCQFJQU6UHcAKAJ6XDBSFABkBzMBaQ" target="_self">                    
+                            Portugués                        </a>
+                    </li>
+                                    <li>
+                        <a class="" style="color: #505050;" href="/ADMANAxyVDtaQgRoVGVSOFxnCHUDawlvB2QCLwYlBGRVQ1NlATJRbQg4UjVRZFV0Uz1bFVZ6CTpXFwM4USUDIwA_ACcMJFQsWjYEQlQwUmZcNA" target="_self">                    
+                            Catalán                        </a>
+                    </li>
+                                    <li>
+                        <a class="" style="color: #505050;" href="/UGVTcw9xAW4MFFU5V2YDaVJpAH0Hbw1rUjEDLgwvAWEGEAcxXW5RbQ09BGNVYAAhUT8JRwEtWmkGRgM4USUFJVBvU3QPJwF5DGBVE1czAzdSOg" target="_self">                    
+                            Euskera                        </a>
+                    </li>
+                        </ul>       
+    </div>
+</div>            </div>
+        </div>
+    
+    <div class="clsCB"></div>
+</div>
+<script>
+    $(document).ready(function (){
+       $("#idHeaderProfessionalClose, #idHeaderMulticenterClose").click(function(){
+          localStorage.clear();
+          
+          var iframe = document.getElementById('idXssIframeLogout');
+          iframe.src = 'https://webapp.bookitit.com/logout';
+       });
+    });
+</script>
+
+<iframe hidden id="idXssIframeLogout" src="" style="display: none;"></iframe>
+
+            <div id="idContent">
+
+                                <h1>404 No encontrado</h1>
+            </div>
+            
+        </div>
+        <div class="clsCB"></div>
+        <div id="footer" style="margin: 0">
+    <div id="idBar"></div>
+
+    <div id="idFooterContent" class="clsTextGrey clsBgClear">
+        
+    <!-- Google Tag Manager PONER EN EL HEAD-->
+    <script>
+        (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true;
+            j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f); 
+        })(window,document,'script','dataLayer', 'GTM-PMCBBML');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Tag Manager (noscript) PONER EN EL BODY-->
+    <noscript>
+        <iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PMCBBML' height='0' width='0' style='display:none;visibility:hidden'></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->        
+        
+        <div id="idSubMenuFL">
+            <div class="clsHP">
+            <a href="/ATwENA4mAS9dYlE2W25RJlEoDTdSHQh6UCNVe1AmUm9ScAIjDDIGNgo1A2pVaQ" title="Soporte" target="_self">
+                Soporte            </a>
+            </div>
+        </div>
+        
+                    <div id="idSubMenuFR">
+                                    <a href="http://www.bookitit.com" target="_blank">
+                        <div id="idNubesisLogo" class="clsHP"></div>
+                    </a>
+                                
+                                    <div id="idDivPowered">
+                        powered by <a href="http://www.bookitit.com" >bookitit</a>
+                    </div>
+                            </div>
+                <div class="clsCB"></div>        
+    </div>
+</div>    </body>
+</html>

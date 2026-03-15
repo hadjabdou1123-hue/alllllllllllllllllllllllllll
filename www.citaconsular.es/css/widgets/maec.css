@@ -1,0 +1,3146 @@
+/*common.css*/
+
+#idBktWidgetBody {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px
+}
+
+#idBktWidgetBody *,
+#idBktWidgetBody ::after,
+#idBktWidgetBody ::before {
+    -webkit-box-sizing: unset;
+    -moz-box-sizing: unset;
+    box-sizing: unset
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer {
+    width: 546px;
+    margin: 0 auto;
+    position: relative
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsOrangeText,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsTextOrange {
+    color: #e7522d
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsTextGreen {
+    color: #81c04d
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsTextBold {
+    font-weight: 700 !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsTextRight {
+    text-align: right !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsTextCenter {
+    text-align: center !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsCB {
+    clear: both
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsHP {
+    float: left
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsHPR {
+    float: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktButtonContinueContainer {
+    margin-top: 30px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBackButton,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivConfirmButton input[type=submit],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivContinueButton {
+    background: #81c04d;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivCancelButton {
+    background: #b7c3d2;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBackErrorButton,
+#idBktWidgetBody #idDivBktCCCStrBody {
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultHeader {
+    background-color: #494949;
+    color: #fff;
+    height: 40px;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultHeader #idBktWidgetDefaultHeaderCenterName {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultHeader #idBktWidgetDefaultHeaderCenterName #idBktWidgetDefaultHeaderCenterNameText {
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+    text-align: center;
+    line-height: 40px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultHeader #idBktWidgetDefaultHeaderLanguageSelector {
+    float: right;
+    margin-top: 12px;
+    height: 28px;
+    line-height: 28px;
+    text-align: right;
+    width: 0%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultHeader #idBktWidgetDefaultHeaderLanguageSelector #idBktWidgetDefaultHeaderLanguageSelectorText {
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+    margin-right: 15px;
+    float: right;
+    width: 26px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultHeader #idBktWidgetDefaultHeaderLanguageSelector #idBktWidgetDefaultHeaderLanguageSelectorText select {
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    color: #fff;
+    background-color: #494949;
+    width: 42px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultHeader #idBktWidgetDefaultHeaderLanguageSelector #idBktWidgetDefaultHeaderLanguageSelectorText select option {
+    background-color: #fff;
+    color: #666;
+    padding: 5px;
+    font-size: .813em;
+    line-height: .813em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultContainer {
+    background-color: #f3f5f7;
+    min-height: 405px;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultContent {
+    position: relative
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultFooter {
+    height: 17px;
+    width: 100%;
+    background-color: #f3f5f7;
+    padding-bottom: 11px;
+    padding-top: 15px;
+    box-sizing: content-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultFooter #idBktWidgetDefaultFooterLogo {
+    background-image: url("../../images/widgets/default/footer/powered.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 17px;
+    width: 50%;
+    background-position: 15px 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultFooter #idBktWidgetDefaultFooterAccount {
+    color: #e7522d;
+    float: right;
+    font-size: .75em;
+    height: 17px;
+    line-height: 17px;
+    text-align: right;
+    width: 50%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultFooter #idBktWidgetDefaultFooterAccount .clsBktWidgetDefaultFooterAccountText {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: #e7522d;
+    text-align: right;
+    display: inline-block;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultFooter #idBktWidgetDefaultFooterAccount #idBktWidgetDefaultFooterAccountSignInAccountContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWidgetDefaultFooter #idBktWidgetDefaultFooterAccount #idBktWidgetDefaultFooterAccountSignOutAccountContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWidgetTimezoneSelectContainer {
+    text-align: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktDefaultErrorContainer {
+    text-align: center
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktDefaultErrorText {
+    background: #ee8369;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktDefaultOkText {
+    background: #81c04d;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivSubHeader {
+    background-color: #5b5b5b;
+    height: 40px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivSubHeaderBackButton {
+    background-color: #767676;
+    height: 40px;
+    float: left;
+    background-image: url("../../images/widgets/default/agendas/back_bis.png");
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    cursor: pointer;
+    max-width: 10%;
+    width: 40px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivSubHeaderBreadcrumbs {
+    height: 40px;
+    float: left;
+    font-size: .8em;
+    color: #fff;
+    line-height: 40px;
+    width: 90%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivSubHeaderBreadcrumbsText {
+    overflow: hidden;
+    padding-left: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    line-height: 40px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBreadcrumbTime {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: inherit;
+    font-weight: inherit;
+    line-height: inherit
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSubHeaderExtraOption {
+    height: 40px;
+    width: 50%;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.067em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSubHeaderExtraOption .clsDivBktSubHeaderExtraOptionIconText {
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-left: 40px;
+    background-position: 0 50%;
+    line-height: 40px;
+    font-size: .867em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer select:-moz-focusring {
+    color: transparent !important;
+    text-shadow: 0 0 0 #000
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer option {
+    color: #666;
+    text-shadow: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWidgetTimezoneSelectorContainer {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWidgetTimezoneInfoContainer {
+    display: table;
+    font-size: .867em;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWidgetTimezoneMerchantTimezone,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWidgetTimezoneSelectContainer {
+    display: table-cell;
+    vertical-align: middle
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWidgetTimezoneSelectorContainer select {
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    color: #748489;
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: #ecedef;
+    border-radius: 5px;
+    width: 100% !important;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 30px 0 10px;
+    background-image: url(../../images/theme/bkt/input/selectArrow.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    background-size: 12px;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCancelAppointmentContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeContainer {
+    position: absolute;
+    z-index: 99999;
+    top: 50px;
+    left: 50%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeContent {
+    background-color: #fff;
+    padding: 15px;
+    max-width: 486px;
+    min-width: 486px;
+    left: -50%;
+    position: relative;
+    height: 350px;
+    overflow: auto
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCancelAppointmentHeaderTitle,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeHeaderTitle {
+    color: #e7522d;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCancelAppointmentBody,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeBody {
+    font-size: .867em;
+    line-height: 1.333em;
+    text-align: justify
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCancelAppointmentHeaderCloseContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeHeaderCloseContainer {
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCancelAppointmentHeaderClose,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeHeaderClose {
+    height: 17px;
+    width: 17px;
+    background-image: url("../../images/widgets/default/legalnotice/close.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    float: right;
+    cursor: pointer
+}
+
+.clsBktDefaultPopupOverlay {
+    background: #666;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99998;
+    display: none;
+    -moz-opacity: 0.4;
+    -khtml-opacity: 0.4;
+    opacity: .4
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktWidgetDefaultLoadingContainer {
+    background: #f3f5f7;
+    position: absolute;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    -moz-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    opacity: .75
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktWidgetDefaultLoading {
+    background-image: url("../../images/widgets/default/loading/loading.gif");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0 auto;
+    width: 100%
+}
+
+@media only screen and (max-width:1365px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer {
+        width: 100%;
+        padding: 0;
+        margin: 0
+    }
+    #idBktWidgetBody {
+        font-size: 15px
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:570px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeContent {
+        left: 0;
+        right: 0;
+        min-width: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeContainer {
+        left: 0
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    #idBktWidgetBody {
+        font-size: 13px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeContent {
+        left: 0;
+        right: 0;
+        min-width: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeContainer {
+        left: 0
+    }
+}
+
+@media only screen and (max-width:319px) {
+    #idBktWidgetBody {
+        font-size: 10px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeContent {
+        left: 0;
+        right: 0;
+        min-width: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultLegalNoticeContainer {
+        left: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSubHeaderExtraOption .clsDivBktSubHeaderExtraOptionIconText {
+        padding-left: 35px
+    }
+}
+
+/*fields.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type=password],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type=text] {
+    height: 25px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer textarea {
+    box-sizing: border-box;
+    height: 80px;
+    max-width: 100%;
+    min-height: 80px;
+    min-width: 100%;
+    padding-left: 10px;
+    padding-top: 7px;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer textarea {
+    -webkit-appearance: none;
+    -webkit-focus-ring-color: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type=checkbox] {
+    display: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type=checkbox]+label {
+    background: url("../../../images/widgets/default/services/check_02.png") no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-indent: -1000em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer input[type=checkbox]:checked+label {
+    background: url("../../../images/widgets/default/services/check_02.png") 0 -16px no-repeat
+}
+
+/*reset.css*/
+
+#idBktWidgetBody a,
+#idBktWidgetBody abbr,
+#idBktWidgetBody acronym,
+#idBktWidgetBody address,
+#idBktWidgetBody applet,
+#idBktWidgetBody article,
+#idBktWidgetBody aside,
+#idBktWidgetBody audio,
+#idBktWidgetBody b,
+#idBktWidgetBody big,
+#idBktWidgetBody blockquote,
+#idBktWidgetBody body,
+#idBktWidgetBody canvas,
+#idBktWidgetBody caption,
+#idBktWidgetBody center,
+#idBktWidgetBody cite,
+#idBktWidgetBody code,
+#idBktWidgetBody dd,
+#idBktWidgetBody del,
+#idBktWidgetBody details,
+#idBktWidgetBody dfn,
+#idBktWidgetBody div,
+#idBktWidgetBody dl,
+#idBktWidgetBody dt,
+#idBktWidgetBody em,
+#idBktWidgetBody embed,
+#idBktWidgetBody fieldset,
+#idBktWidgetBody figcaption,
+#idBktWidgetBody figure,
+#idBktWidgetBody footer,
+#idBktWidgetBody form,
+#idBktWidgetBody h1,
+#idBktWidgetBody h2,
+#idBktWidgetBody h3,
+#idBktWidgetBody h4,
+#idBktWidgetBody h5,
+#idBktWidgetBody h6,
+#idBktWidgetBody header,
+#idBktWidgetBody hgroup,
+#idBktWidgetBody html,
+#idBktWidgetBody i,
+#idBktWidgetBody iframe,
+#idBktWidgetBody img,
+#idBktWidgetBody input,
+#idBktWidgetBody ins,
+#idBktWidgetBody kbd,
+#idBktWidgetBody label,
+#idBktWidgetBody legend,
+#idBktWidgetBody li,
+#idBktWidgetBody mark,
+#idBktWidgetBody menu,
+#idBktWidgetBody nav,
+#idBktWidgetBody object,
+#idBktWidgetBody ol,
+#idBktWidgetBody output,
+#idBktWidgetBody p,
+#idBktWidgetBody pre,
+#idBktWidgetBody q,
+#idBktWidgetBody ruby,
+#idBktWidgetBody s,
+#idBktWidgetBody samp,
+#idBktWidgetBody section,
+#idBktWidgetBody small,
+#idBktWidgetBody span,
+#idBktWidgetBody strike,
+#idBktWidgetBody strong,
+#idBktWidgetBody sub,
+#idBktWidgetBody summary,
+#idBktWidgetBody sup,
+#idBktWidgetBody table,
+#idBktWidgetBody tbody,
+#idBktWidgetBody td,
+#idBktWidgetBody textarea,
+#idBktWidgetBody tfoot,
+#idBktWidgetBody th,
+#idBktWidgetBody thead,
+#idBktWidgetBody time,
+#idBktWidgetBody tr,
+#idBktWidgetBody tt,
+#idBktWidgetBody u,
+#idBktWidgetBody ul,
+#idBktWidgetBody var,
+#idBktWidgetBody video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+#idBktWidgetBody a,
+#idBktWidgetBody div,
+#idBktWidgetBody input[type=password],
+#idBktWidgetBody input[type=text],
+#idBktWidgetBody option,
+#idBktWidgetBody select,
+#idBktWidgetBody span,
+#idBktWidgetBody textarea {
+    color: #666;
+    font-family: Arial, Helvetica, Verdana !important;
+    font-size: 1em;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1em
+}
+
+#idBktWidgetBody article,
+#idBktWidgetBody aside,
+#idBktWidgetBody details,
+#idBktWidgetBody figcaption,
+#idBktWidgetBody figure,
+#idBktWidgetBody footer,
+#idBktWidgetBody header,
+#idBktWidgetBody hgroup,
+#idBktWidgetBody menu,
+#idBktWidgetBody nav,
+#idBktWidgetBody section {
+    display: block
+}
+
+#idBktWidgetBody body {
+    line-height: 1
+}
+
+#idBktWidgetBody ol,
+#idBktWidgetBody ul {
+    list-style: none
+}
+
+#idBktWidgetBody blockquote,
+#idBktWidgetBody q {
+    quotes: none
+}
+
+#idBktWidgetBody blockquote:after,
+#idBktWidgetBody blockquote:before,
+#idBktWidgetBody q:after,
+#idBktWidgetBody q:before {
+    content: '';
+    content: none
+}
+
+#idBktWidgetBody table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+#idBktWidgetBody a {
+    text-decoration: none
+}
+
+#idBktWidgetBody input[type=password],
+#idBktWidgetBody input[type=text],
+#idBktWidgetBody textarea {
+    text-decoration: none;
+    background-color: #fff;
+    border: none !important
+}
+
+/*scroll.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultContainer #idBktDefaultServicesContainer,
+#idBktWidgetBody #idBktWidgetDefaultContainer #idDivBktAccountHistoryContainer,
+#idBktWidgetBody #idBktWidgetDefaultContainer #idDivBktAgendasContainer,
+#idBktWidgetBody #idBktWidgetDefaultContainer #idDivBktDatetimeContainer,
+#idBktWidgetBody #idBktWidgetDefaultContainer #idDivBktSignUpContainer {
+    overflow-y: auto;
+    height: 420px
+}
+
+/*account.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivSubHeaderAccountLogin {
+    color: #fff;
+    line-height: 40px;
+    overflow: hidden;
+    padding-left: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer {
+    padding: 15px 0 15px 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultAccountLoginErrorContainer {
+    padding-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer .clsDivBktAccountLoginFormInputLoginType {
+    width: 60%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer .clsDivBktAccountLoginFormInputLoginPassword {
+    width: 40%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer .clsDivBktRecoverPasswordFormInputLoginPassword {
+    width: 50%;
+    float: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContent {
+    padding-left: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordFieldsContainer {
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordFieldsContainer #idDivBktRecoverPasswordFieldsContent {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordFieldsContainer .clsDivBktRecoverPasswordFormInputContainer {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordFieldsContainer #idSelBktRecoverPasswordField {
+    width: 100%;
+    box-sizing: border-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordFieldsContainer #idIptBktRecoverPassword {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountLoginFormInputDropAndTextContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultAccountLoginHalvedRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultAccountLoginRow {
+    display: table;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultAccountLoginHalvedRow .clsDivBktAccountLoginFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultAccountLoginRow .clsDivBktAccountLoginFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultRecoverPasswordRow .clsDivBktRecoverPasswordFormInput {
+    padding-right: 15px;
+    padding-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultAccountLoginHalvedRow .clsDivBktAccountLoginFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultAccountLoginHalvedRow .clsDivBktAccountLoginFormInputDropAndTextFieldSelect {
+    display: table-cell;
+    vertical-align: top
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountLoginFormInputDropAndTextFieldSelect,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountLoginFormInputDropAndTextFieldSelect select {
+    width: 85px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultAccountLoginHalvedRow .clsDivBktAccountLoginFormInputDropAndTextFieldSelect select {
+    cursor: pointer;
+    color: #666
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountLoginFormInputDropAndTextFieldInput {
+    display: table-cell;
+    padding-left: 15px;
+    vertical-align: top;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountLoginFormInputDropAndTextContainer input[type=text] {
+    margin-bottom: 0 !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer #idDivBktAccountLoginRecoveryPassword {
+    color: #e7522d;
+    cursor: pointer;
+    font-size: .733em;
+    padding-top: 15px;
+    text-align: right;
+    text-decoration: underline;
+    float: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer input[type=password],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer input[type=text],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer input[type=text] {
+    height: 25px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer input,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer input {
+    -webkit-appearance: none;
+    -webkit-focus-ring-color: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultAccountLoginSubFooterContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultRecoverPasswordSubFooterContainer {
+    padding-right: 15px;
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultAccountLoginConfirmButtonContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultRecoverPasswordConfirmButtonContainer {
+    float: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer #idDivBktRecoverPasswordExplain {
+    background: #fff;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+    line-height: 1.467em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultRecoverPasswordErrorContainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer .clsBktDefaultErrorContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer .clsBktDefaultOkContainer {
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer .clsBktDefaultOkText {
+    background: #e9f6d4;
+    color: #81c04d;
+    margin-top: 15px;
+    padding: 20px 30px;
+    text-align: center;
+    line-height: 1.467em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer .clsBktDefaultDataErrorText {
+    background: #ee8369;
+    color: #fff;
+    margin-top: 15px;
+    padding: 20px 30px;
+    text-align: center
+}
+
+@media only screen and (max-width:425px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultAccountLoginHalvedRow .clsDivBktAccountLoginFormInput {
+        display: block
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultAccountLoginConfirmButtonContainer {
+        margin-top: 20px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentData {
+        padding-right: 4px !important
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDate,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataTime {
+        text-align: center
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer .clsDivBktAccountLoginFormInputLoginPassword,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountLoginContainer .clsDivBktAccountLoginFormInputLoginType,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRecoverPasswordContainer .clsDivBktRecoverPasswordFormInputLoginPassword {
+        width: auto;
+        float: none
+    }
+}
+
+@media only screen and (max-width:319px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentData {
+        padding-right: 4px !important
+    }
+}
+
+/*agendas.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAgendasContainer a {
+    text-decoration: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAgendasContainer {
+    padding: 15px 0 15px 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContent {
+    height: 88px;
+    float: left
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContentImage {
+    width: 88px;
+    height: 88px;
+    float: left;
+    background: #dfe3e6
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContentImageCell {
+    width: 100%;
+    height: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaImage {
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaDataNameContainer {
+    margin-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContentName {
+    height: 68px;
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+    color: #666;
+    font-size: .867em;
+    line-height: .867em;
+    text-decoration: none;
+    box-sizing: content-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContentAuto {
+    display: table;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContentNameText {
+    display: table-cell;
+    height: 68px;
+    vertical-align: middle
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContentAuto .clsDivBktAgendaContentNameText {
+    text-align: center
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContent {
+    width: 50%;
+    margin-bottom: 15px;
+    min-width: 255px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContentData {
+    margin: 0 auto
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultAgendasErrorContainer {
+    padding-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDefaultErrorAgendasNoAvailable {
+    display: none
+}
+
+@media only screen and (min-width:320px) and (max-width:570px) and (orientation :landscape) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContent {
+        width: 100%;
+        float: none
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:570px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContent {
+        width: 100%;
+        float: none
+    }
+}
+
+@media only screen and (max-width:319px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaContent {
+        width: 100%;
+        float: none
+    }
+}
+
+/*changepassword.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-top: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountSubHeaderChangePasswordEvents .clsDivBktSubHeaderExtraOptionIconText {
+    background-image: url("../../../images/widgets/default/history/list_white.png");
+    color: #fff
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountSubHeaderChangePassword .clsDivBktSubHeaderExtraOptionIconText {
+    background-image: url("../../../images/widgets/default/history/lock_dark.png");
+    color: #717171
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountSubHeaderChangePasswordEvents {
+    background-color: #717171;
+    color: #fff;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordNew {
+    margin-left: 10px;
+    width: 46%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordRepeatContainer {
+    margin-right: 10px;
+    width: 46%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktChangePasswordSubmit {
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktChangePasswordSaveMessageError,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktChangePasswordSaveMessageFail,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktChangePasswordSaveMessageOk {
+    background-color: #eaf5d3;
+    height: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktChangePasswordSaveMessageErrorText,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktChangePasswordSaveMessageFailText,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktChangePasswordSaveMessageOkText {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 4em
+}
+
+@media only screen and (max-width:425px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordNew,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordRepeatContainer {
+        width: 100%;
+        margin: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordRepeatContainer {
+        margin-top: 20px
+    }
+}
+
+@media only screen and (max-width:319px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordNew,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordRepeatContainer {
+        width: 100%;
+        margin: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktChangePasswordRepeatContainer {
+        margin-top: 20px
+    }
+}
+
+/*confirmclient.css*/
+
+#idBktWidgetBody #idDivBktConfirmClientContainer {
+    padding: 25px
+}
+
+#idBktWidgetBody #idDivBktConfirmClientInfo {
+    margin-bottom: 20px
+}
+
+#idBktWidgetBody #idDivBktConfirmClientContent {
+    display: table;
+    height: 100%
+}
+
+#idBktWidgetBody #idDivBktConfirmClientCodeInput {
+    display: table-cell;
+    height: 100%;
+    padding-right: 20px
+}
+
+#idBktWidgetBody #idDivBktConfirmClientValidateButton {
+    display: table-cell
+}
+
+#idBktWidgetBody #idIptBktValidateCode {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    height: 100%;
+    width: 100px;
+    min-width: 100px
+}
+
+#idBktWidgetBody #idDivBktValidateCodeError {
+    margin-top: 10px;
+    color: #e7522d
+}
+
+/*creditcardcapture.css*/
+
+#idBktWidgetBody #idDivBktCCCStr,
+#idBktWidgetBody #idDivBktCCCStrInfoDetail,
+#idBktWidgetBody #idDivBktPaypalButtonContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%
+}
+
+#idBktWidgetBody #idDivBktCCCStrInfo {
+    width: 100%;
+    height: 140px
+}
+
+#idBktWidgetBody #idDivBktCCCStrInfoDetail {
+    margin-top: 10px;
+    background-color: #fff;
+    height: 115px
+}
+
+#idBktWidgetBody #idDivBktPaymentsGatewaysBackContainer {
+    display: none;
+    cursor: pointer;
+    margin: 10px auto;
+    width: 95%;
+    color: #e7522d
+}
+
+#idBktWidgetBody #idDivBktPaymentGatewayStripeContainer,
+#idBktWidgetBody #idDivBktPaymentsGatewaysContainer {
+    display: none
+}
+
+#idBktWidgetBody #idDivBktPaymentsGatewaysContainer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 95%
+}
+
+#idBktWidgetBody #idDivBktPaymentsGatewaysPaypal,
+#idBktWidgetBody #idDivBktPaymentsGatewaysRedsys,
+#idBktWidgetBody #idDivBktPaymentsGatewaysStripe {
+    margin-top: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    color: #666
+}
+
+#idBktWidgetBody #idDivBktPaymentsGatewaysPaypal:hover,
+#idBktWidgetBody #idDivBktPaymentsGatewaysRedsys:hover,
+#idBktWidgetBody #idDivBktPaymentsGatewaysStripe:hover {
+    background-image: url("../../../images/widgets/default/creditcard/ok_reservas.svg");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    background-size: 30px
+}
+
+#idBktWidgetBody .clsDivBktPaymentText {
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 5px
+}
+
+#idBktWidgetBody .clsDivBktPaymentIconPaypal {
+    background-image: url("../../../images/widgets/default/creditcard/paypal_reservas_online.svg");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#idBktWidgetBody .clsDivBktPaymentIconCard {
+    background-image: url("../../../images/widgets/default/creditcard/card_reservas.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#idBktWidgetBody .clsDivBktCCCStrInfoTable {
+    display: table
+}
+
+#idBktWidgetBody #idDivBktCCCStrBody .clsDivBktRow,
+#idBktWidgetBody .clsDivBktCCCStrInfoTableRow {
+    display: table-row
+}
+
+#idBktWidgetBody .clsDivBktCCCStrInfoTableCell {
+    display: table-cell
+}
+
+#idBktWidgetBody .clsDivBktCCCStrInfoTableCellEmpty {
+    width: 20px
+}
+
+#idBktWidgetBody #idDivBktCCCStrInfoTableDetail {
+    margin-top: 15px;
+    margin-bottom: 10px
+}
+
+#idBktWidgetBody #idDivBktCCCStrInfoTableTotal {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+#idBktWidgetBody #idDivBktCCCStrInfoLine {
+    width: 100%;
+    border-bottom: 1px solid #f3f5f7;
+    margin-top: 10px
+}
+
+#idBktWidgetBody #idBktDefaultCCCStrSubmitContainer {
+    margin-top: 54px
+}
+
+#idBktWidgetBody #idDivBktCCCStrWhatsThis {
+    margin-top: 5px;
+    font-size: .8em;
+    cursor: pointer;
+    text-align: right
+}
+
+#idBktWidgetBody #idDivBktCCCStrServiceProvided {
+    margin-top: 5px;
+    font-size: .8em;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idDivBktCCCStrServiceProvided span a {
+    color: #e7522d
+}
+
+#idBktWidgetBody #idDivBktCCCStrCardInfo,
+#idBktWidgetBody #idDivBktCCCStrError {
+    width: 391px;
+    height: 75px;
+    background-color: #c1c3c6;
+    z-index: 2;
+    top: 311px;
+    right: 140px;
+    position: absolute
+}
+
+#idBktWidgetBody #idDivBktCCCStrError {
+    z-index: 1;
+    color: #fff !important;
+    background-color: #ee8369
+}
+
+#idBktWidgetBody #idDivBktCCCStrCardInfoContent,
+#idBktWidgetBody #idDivBktCCCStrErrorContent {
+    margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 380px;
+    font-size: .8em
+}
+
+#idBktWidgetBody #idDivBktCCCStrErrorContent {
+    margin-left: 30px
+}
+
+#idBktWidgetBody #idDivBktCCCStrCardInfoText,
+#idBktWidgetBody #idDivBktCCCStrErrorText {
+    width: 275px;
+    margin-left: 10px;
+    color: #fff
+}
+
+#idBktWidgetBody #idDivBktCCCStrErrorText {
+    text-align: center;
+    font-size: 1.1em
+}
+
+#idBktWidgetBody #idDivBktCCCStrCardClose,
+#idBktWidgetBody #idDivBktCCCStrErrorClose {
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 5px
+}
+
+#idBktWidgetBody #idDivBktBanksErrorContainer {
+    width: 95%;
+    margin: 0 auto
+}
+
+#idBktWidgetBody #idDivBktBanksErrorContent,
+#idBktWidgetBody #idDivBktPaymentGatewayPaypalContainer #idDivBktPaypalErrorContent,
+#idBktWidgetBody #idDivBktPaymentGatewayRedsysContainer #idDivBktRedsysErrorContent {
+    background: #ee8369;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+#idBktWidgetBody #idDivBktPaymentGatewayPaypalContainer .paypal-button {
+    text-align: center
+}
+
+#idBktWidgetBody #idDivBktPaymentGatewayPaypalContainer #idDivBktPaypalErrorContainer,
+#idBktWidgetBody #idDivBktPaymentGatewayRedsysContainer #idDivBktRedsysErrorContainer {
+    display: none;
+    width: 95%;
+    margin: 0 auto
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktRedsysContainer {
+    padding: 15px
+}
+
+#idBktWidgetBody #idStripeCreditCardContainer,
+#idBktWidgetBody #idStripeCvcContainer,
+#idBktWidgetBody #idStripeExpiryContainer {
+    background-color: #fff
+}
+
+#idBktWidgetBody #idDivBktCCCStrBody {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+#idBktWidgetBody #idDivBktCCCStrBody .clsDivBktTable {
+    display: table;
+    width: 100%
+}
+
+#idBktWidgetBody #idDivBktCCCStrBody .clsDivBktRowData {
+    display: table-cell;
+    vertical-align: middle;
+    height: 25px
+}
+
+@media only screen and (min-width:320px) and (max-width:570px),
+only screen and (min-width:320px) and (max-width:480px),
+only screen and (max-width:319px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoBodyTopLeft {
+        float: none
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoBodyRight {
+        float: none;
+        margin-top: 5px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktInfoFooterLeft,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktInfoFooterRight {
+        display: block
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktInfoFooterRight {
+        margin-top: 15px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoBackButton {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoAppointmentsContainer {
+        display: table-footer-group
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoPrinterContainer {
+        display: table-header-group
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoPrinter {
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        float: right;
+        padding: 20px 20px 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoAppointmentsContent,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoAppointmentsInfoBottom,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktInfoAppointmentsInfoMiddle {
+        padding: 0 20px 15px
+    }
+    #idBktWidgetBody #idDivBktCCCStrCardInfo,
+    #idBktWidgetBody #idDivBktCCCStrCardInfoContent,
+    #idBktWidgetBody #idDivBktCCCStrError,
+    #idBktWidgetBody #idDivBktCCCStrErrorContent {
+        width: 230px
+    }
+    #idBktWidgetBody #idDivBktCCCStrCardInfoText,
+    #idBktWidgetBody #idDivBktCCCStrErrorText {
+        width: 130px
+    }
+    #idBktWidgetBody #idDivBktCCCStrCardInfo,
+    #idBktWidgetBody #idDivBktCCCStrError {
+        right: 30px
+    }
+}
+
+/*custom.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer {
+    padding: 15px 15px 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer .clsDivFieldCustomLabel {
+    margin-bottom: 5px;
+    color: #e7522d
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer .clsDivFieldCustomInput {
+    margin-bottom: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer .clsFieldCustomInputSelect {
+    min-width: 25%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultCustomContainer #idDivBktButtonCustomContinueContainer {
+    text-align: right;
+    margin-top: 30px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktServicesBackToCustomContainer {
+    margin-bottom: 30px;
+    display: table
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktServicesBackToCustomImage {
+    background-image: url("../../../images/widgets/default/services/back.png");
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 13px;
+    display: table-cell;
+    vertical-align: middle;
+    background-position: 50% 50%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktServicesBackToCustomText {
+    display: table-cell;
+    padding-left: 10px;
+    vertical-align: middle
+}
+
+/*datepicker.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar td a {
+    padding: 3px 7px !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-calendar tbody td a,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker.ui-datepicker .ui-datepicker-calendar tbody td span {
+    display: initial
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-calendar tbody td a:hover {
+    background: initial
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-calendar th {
+    width: auto
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker table thead {
+    background: 0 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker {
+    z-index: 110 !important;
+    width: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-header {
+    background: 0 0;
+    height: auto;
+    position: initial
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-header>a.ui-datepicker-prev {
+    left: initial
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-header>a {
+    position: initial;
+    top: initial;
+    background-color: initial;
+    box-sizing: initial
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-header>a:hover {
+    background-color: initial
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-header>a.ui-datepicker-next {
+    right: initial
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker .ui-datepicker-calendar tbody td span {
+    text-align: center
+}
+
+@media only screen and (max-width:600px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker table thead {
+        display: table-header-group
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker table tr {
+        display: table-row
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker table td,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker table th {
+        display: table-cell
+    }
+}
+
+/*datetime.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerDatetime {
+    margin-bottom: 10px;
+    display: table;
+    margin-top: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerTextDatetime {
+    display: table-cell;
+    vertical-align: middle
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerSelectDatetime {
+    max-width: 70px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerSelectDatetime select {
+    max-width: 70px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeContainer {
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivSlotColumnContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivSlotColumnContainerLast {
+    display: table-cell
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivDatetimeSlot {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background: #81c04d;
+    cursor: pointer;
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivDatetimeSlotTime {
+    color: #fff;
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivDatetimeSlotWaitingList {
+    background: #c7ced2
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivDatetimeWaitListText {
+    color: #e7522d;
+    font-size: .667em;
+    text-align: center;
+    margin-top: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivDatetimeSlotPrice {
+    text-align: center;
+    color: #476d20;
+    margin-top: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivDatetimeSlotFree {
+    color: #fff;
+    font-size: .667em;
+    text-align: center;
+    margin-top: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivSlotColumnContainerLast .clsDivDatetimeSlot {
+    margin-right: 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idTimeListTable .clsDivSlotColumnContainer a,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idTimeListTable .clsDivSlotColumnContainerLast a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatepickerContainer {
+    line-height: 40px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeSelectedDateContainer {
+    float: left;
+    min-width: 55%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeSelectedDateContent {
+    float: right;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatepickerChooseContainer {
+    float: left;
+    min-width: 45%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePickerContent {
+    display: inline-block;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePickerText {
+    float: left;
+    line-height: 40px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePickerIcon {
+    float: left;
+    background-image: url("../../../images/widgets/default/datetime/cal.png");
+    background-position: 10% 50%;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin-left: 10px;
+    width: 50px;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePickerIcon.clsBktDatePickerNotVisible {
+    background-image: url("../../../images/widgets/default/datetime/cal.png")
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePickerIcon.clsBktDatePickerVisible {
+    background-image: url("../../../images/widgets/default/datetime/cal_dos.png")
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeSelectedDateContainer #idDivBktDatetimeSelectedDateLeft {
+    float: right;
+    background-image: url("../../../images/widgets/default/datetime/izq.png");
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    width: 50%;
+    left: 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeSelectedDateContainer #idDivBktDatetimeSelectedDate {
+    float: right;
+    line-height: 40px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeSelectedDateContainer #idDivBktDatetimeSelectedDateRight {
+    float: right;
+    background-image: url("../../../images/widgets/default/datetime/der.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    width: 50%;
+    right: 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idTimeListTable {
+    display: table;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivNotAvailableSlotsContainer {
+    margin-top: 50px;
+    text-align: center
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivNotAvailableSlotsTextTop {
+    font-size: 1.667em;
+    line-height: 1.667em;
+    text-align: center
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivNotAvailableSlotsTextBottom {
+    color: #e7522d;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-top: 10px;
+    text-align: center
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSlotsContainer {
+    padding-top: 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker {
+    background: #fff;
+    position: absolute;
+    padding: 10px;
+    display: none;
+    z-index: 99999
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-month {
+    text-transform: uppercase
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker a {
+    text-decoration: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker table {
+    width: 100%;
+    margin-top: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker {
+    min-width: 200px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-prev {
+    float: left;
+    background-image: url("../../../images/widgets/default/datetime/left.png");
+    padding-right: 15px !important;
+    background-position: 0 50%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-next {
+    float: right;
+    background-image: url("../../../images/widgets/default/datetime/right.png");
+    padding-left: 15px !important;
+    background-position: 100% 50%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-title {
+    text-align: center;
+    line-height: 20px !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-next,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-prev {
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 20px;
+    display: inline-block;
+    text-indent: 600%;
+    line-height: 600% !important;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-icon-circle-triangle-e,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-icon-circle-triangle-w {
+    display: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker #idDivBktDatetimeDatePicker {
+    line-height: normal
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-title span {
+    font-size: .867em !important;
+    line-height: .867em !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar td,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar th {
+    text-align: center;
+    line-height: 30px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar td a,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar td span,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar th {
+    color: #666;
+    font-size: .867em;
+    line-height: 2em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar td a,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar td span {
+    padding: 3px 7px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar a.ui-state-active {
+    background: #494949;
+    color: #fff !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar .clsAvailableSlotsDate a {
+    color: #81c04d
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar .clsFullSlotsDate a {
+    color: #e7522d
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar .clsSlotMaxDate span {
+    color: #66c8cf
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar .ui-datepicker-today a {
+    border: 1px solid #bfbfbf
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivWaitingListContainer {
+    margin-top: 10px;
+    text-align: center;
+    display: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivWaitingListOptions {
+    text-align: center;
+    margin: 25px auto 0;
+    display: table
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanWaitingListOtherTime {
+    color: #e7522d;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivWaitingListBack {
+    text-align: right;
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivWaitingListTextTopOrange {
+    color: #e7522d;
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 1.6em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivWaitingListTextTop {
+    text-align: center;
+    font-size: 1.063em;
+    line-height: 1.063em;
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivWaitingListSubmit {
+    margin-top: 25px;
+    text-align: center;
+    display: block
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultDatetimeDataErrorContainer {
+    background: #ee8369;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 20px
+}
+
+@media only screen and (min-width:320px) and (max-width:570px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivDatetimeSlot {
+        padding: 5px
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker {
+        left: 0;
+        right: 0
+    }
+}
+
+@media only screen and (max-width:319px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivDatetimeSlot {
+        padding: 5px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeSelectedDateContainer #idDivBktDatetimeSelectedDateLeft,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeSelectedDateContainer #idDivBktDatetimeSelectedDateRight {
+        height: 20px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeSelectedDateContainer #idDivBktDatetimeSelectedDate {
+        line-height: 20px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatepickerContainer {
+        padding-bottom: 15px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSlotsContainer {
+        padding-top: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker {
+        left: 0;
+        right: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar td a,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar td span,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDatetimeDatePicker .ui-datepicker-calendar th {
+        font-size: 1.067em;
+        line-height: 2em
+    }
+}
+
+/*history.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistorySubHeaderAppointmentsList .clsDivBktSubHeaderExtraOptionIconText {
+    background-image: url("../../../images/widgets/default/history/list_dark.png")
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistorySubHeaderChangePassword .clsDivBktSubHeaderExtraOptionIconText {
+    background-image: url("../../../images/widgets/default/history/lock_white.png");
+    color: #fff
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistorySubHeaderChangePassword {
+    background-color: #717171;
+    color: #fff;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContent {
+    display: table;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentActionsContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentDatesContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentServicesContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentStatesContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentTimesContainer {
+    display: table-cell
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentRow {
+    display: table-row
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentHeader {
+    display: table-cell;
+    font-weight: 700;
+    height: 25px;
+    border-bottom: 1px solid #fff;
+    padding-right: 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentData {
+    display: table-cell;
+    vertical-align: middle;
+    border-bottom: 1px solid #fff;
+    padding-right: 20px;
+    font-size: .867em;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallContainer {
+    margin-left: 3px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteIcon,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPollContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPollIcon,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPrintContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPrintIcon,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallIcon {
+    height: 18px;
+    width: 18px;
+    display: inline-block
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPollIcon,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallIcon {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPrintIcon {
+    background-image: url("../../../images/widgets/default/history/print.png");
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDeleteIcon {
+    background-image: url("../../../images/widgets/default/history/delete.png");
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataVideocallIcon {
+    background-image: url("../../../images/widgets/default/history/video_list_services.svg")
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPollIcon {
+    background-image: url("../../../images/widgets/default/history/poll.svg")
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataMobile {
+    display: none;
+    margin-top: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataActions {
+    text-align: center;
+    padding-right: 0;
+    white-space: nowrap
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataDate,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataTime {
+    white-space: nowrap
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryContentNoEvents {
+    background: #d4d4d4
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataCanceled {
+    color: #e7522d
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataPending {
+    color: #5194d6
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataRejected {
+    color: #b7c3d2
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryContentDataCompleted {
+    color: #9ccc50
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryService {
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAccountHistoryExtraService {
+    padding-left: 15px;
+    margin-top: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentConfirmTitle,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentErrorTitle {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    line-height: 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentContainer {
+    position: absolute;
+    z-index: 99999;
+    top: 160px;
+    left: 50%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentConfirmContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentErrorContainer {
+    background-color: #fff;
+    left: -50%;
+    max-width: 460px;
+    min-width: 460px;
+    padding: 20px;
+    position: relative
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktAccountHistoryCancelAppointmentConfirmContainer .clsDivCancelButton {
+    margin-right: 10px
+}
+
+/*services.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainer {
+    margin-bottom: 20px;
+    display: table
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerText {
+    display: table-cell;
+    vertical-align: middle
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerSelect {
+    max-width: 70px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerSelect select {
+    max-width: 70px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultServicesContainer {
+    padding: 15px 15px 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktServiceDataContainer {
+    margin-top: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktDefaultServicesMainContent {
+    min-height: 320px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceName a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 16px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceGroupName {
+    font-size: 1.067em;
+    line-height: 1.067em;
+    font-weight: 700;
+    margin-top: 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceCheckbox {
+    margin-right: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServicePublicPrice {
+    margin-left: 5px;
+    line-height: 16px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceName {
+    line-height: 16px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktMultiserviceServiceHide,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices input[type=checkbox] {
+    display: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices input[type=checkbox]+label {
+    background: url("../../../images/widgets/default/services/check_02.png") no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-indent: -1000em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices input[type=checkbox]:checked+label {
+    background: url("../../../images/widgets/default/services/check_02.png") 0 -16px no-repeat
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceHasDescription {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 0;
+    padding-left: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceHasDescription:hover {
+    background-color: #fff
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceDescription {
+    font-size: .8em;
+    margin-top: 10px;
+    padding-left: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceVideoCall {
+    background-image: url("../../../images/widgets/default/services/video_list_services.png");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-position: 0 50%;
+    margin-right: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktAccordionServiceGroup {
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktAccordionServiceGroup .clsBktAccordionServiceGroupIcon {
+    background-image: url("../../../images/widgets/default/services/flecha.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-position: 0 50%;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktAccordionServiceGroupActive .clsBktAccordionServiceGroupIcon {
+    transform: rotate(-180deg)
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesSummaryContainer {
+    border-top: 1px solid #e2eaec;
+    border-bottom: 1px solid #e2eaec;
+    display: table;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesBackButtonContainer {
+    border-right: 1px solid #e2eaec;
+    display: table-cell;
+    vertical-align: middle;
+    width: 1px;
+    padding: 15px 5px;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesBackButtonIcon {
+    height: 22px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-image: url("../../../images/widgets/default/agendas/atras.svg")
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesSummaryTitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #7e868a;
+    font-size: .933em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesSummary {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px 25px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServiceSelectedExtrasContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesSummary #idBktExtraServicesSummaryInfo,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idListExtraServices {
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktSummaryTextGrey {
+    font-size: .8em;
+    color: #7e868a
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktSummaryTextBlue {
+    font-size: .8em;
+    color: #64adb7
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktSummaryTextBold {
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesTotalContainer {
+    border-left: 1px solid #e2eaec;
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 15px 25px;
+    white-space: nowrap;
+    width: 1px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServiceSelectedTotalText {
+    color: #7e868a;
+    font-weight: 700;
+    font-size: 1.333em;
+    text-transform: uppercase
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServiceSelectedTotal {
+    color: #64adb7;
+    font-size: 1.333em;
+    text-transform: uppercase
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesListContainer {
+    padding: 25px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesListTitle {
+    color: #64adb7;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktExtraServiceContainer {
+    border: 1px solid #e2eaec;
+    border-radius: 5px;
+    margin-bottom: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktExtraServiceContainer:hover {
+    background-color: #f1f3f5;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktExtraServiceContent {
+    display: table;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktExtraServiceCheckboxContainer {
+    display: table-cell;
+    vertical-align: middle;
+    width: 1px;
+    padding-left: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktExtraServiceInfoContainer {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktExtraServiceName {
+    font-weight: 700;
+    color: #7e868a;
+    font-size: .933em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktExtraServicePrice {
+    color: #64adb7;
+    font-size: .933em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer input[type=checkbox]+label {
+    background: url("../../../images/widgets/default/agendas/check_02.png") no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-indent: -1000em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer input[type=checkbox]:checked+label {
+    background: url("../../../images/widgets/default/agendas/check_02.png") 0 -16px no-repeat
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer .clsBktExtraServiceDescription {
+    color: #9aaaaf;
+    font-size: .8em;
+    padding: 0 10px 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultExtraServicesContainer #idBktExtraServicesContinueButtonContainer {
+    text-align: right;
+    padding: 0 25px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceDisabled,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceDisabled:hover,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceHasDescription.clsBktServiceDisabled,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceHasDescription.clsBktServiceDisabled:hover {
+    background-color: #ececec
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerSelect select {
+        padding-top: 1px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainer {
+        height: 40px;
+        margin-bottom: 20px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices input[type=checkbox]+label {
+        width: 44px;
+        height: 44px;
+        background: url(../../../images/widgets/default/services/check_32.png) no-repeat
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceName a,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServicePublicPrice {
+        line-height: 44px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices input[type=checkbox]:checked+label {
+        background: url("../../../images/widgets/default/services/check_32.png") 0 -44px no-repeat
+    }
+}
+
+@media only screen and (max-width:319px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerSelect select {
+        padding-top: 2px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerText {
+        float: none
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainerSelect {
+        float: none;
+        margin-left: 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktNumberOfPeopleContainer {
+        height: 40px;
+        margin-bottom: 20px
+    }
+}
+
+/*signin.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer {
+    padding-left: 15px;
+    padding-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInSubHeaderNewAccount .clsDivBktSubHeaderExtraOptionIconText {
+    background-image: url("../../../images/widgets/default/signup/anadir_bl.png");
+    color: #fff
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInSubHeaderAccount .clsDivBktSubHeaderExtraOptionIconText {
+    background-image: url("../../../images/widgets/default/signup/cuenta_gr.png")
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInSubHeaderNewAccount {
+    background-color: #717171;
+    color: #fff;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type=password],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type=tel],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type=text] {
+    height: 25px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer textarea {
+    box-sizing: border-box;
+    height: 80px;
+    max-width: 100%;
+    min-height: 80px;
+    min-width: 100%;
+    padding-left: 10px;
+    padding-top: 7px;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer textarea {
+    -webkit-appearance: none;
+    -webkit-focus-ring-color: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInCommentsField,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInSubFooterContainer {
+    padding-right: 15px;
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInAccept,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInRecoveryPasswordContainer {
+    float: left
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInConfirmButtonContainer {
+    float: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInAcceptInput {
+    float: left;
+    margin-right: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInAcceptText {
+    float: left;
+    font-size: .867em;
+    line-height: 16px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type=checkbox] {
+    display: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type=checkbox]+label {
+    background: url("../../../images/widgets/default/services/check_02.png") no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-indent: -1000em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer input[type=checkbox]:checked+label {
+    background: url("../../../images/widgets/default/services/check_02.png") 0 -16px no-repeat
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktDefaultSignInLinkAccept {
+    color: #e7522d;
+    text-decoration: none;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputCheckboxContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropContainer {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInput {
+    padding-right: 15px;
+    padding-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInputDropAndTextFieldSelect,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInputDropAndTextFieldSelect {
+    display: table-cell;
+    vertical-align: top
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextFieldSelect,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextFieldSelect select {
+    width: 85px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInputDropAndTextFieldSelect select,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInputDropAndTextFieldSelect select {
+    cursor: pointer;
+    color: #666
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextFieldInput {
+    display: table-cell;
+    padding-left: 15px;
+    vertical-align: top;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextContainer input[type=tel],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputDropAndTextContainer input[type=text] {
+    margin-bottom: 0 !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputCheckboxContainer {
+    height: 25px;
+    padding-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputCheckboxInput {
+    width: 16px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignInFormInputCheckboxLabel {
+    display: table-cell;
+    overflow: hidden;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInputDropContainer select,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInRow .clsDivBktSignInFormInputDropContainer select {
+    cursor: pointer;
+    color: #666;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError {
+    color: #fff !important;
+    background-color: #ee8369
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultFieldError {
+    color: #e7522d;
+    background-color: #f3f5f7;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: none;
+    font-size: .667em;
+    font-weight: 400;
+    line-height: 1em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInErrorContainer {
+    padding-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer #idDivBktDefaultSignInRecoveryPassword {
+    color: #e7522d;
+    cursor: pointer;
+    font-size: .733em;
+    text-align: left;
+    text-decoration: underline;
+    float: left
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer #idBktDefaultSignedInAttachFileContainer {
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignInContainer #idIptBktSignedInAttachFile.clsDivBktDefaultInputError {
+    background: inherit
+}
+
+@media only screen and (max-width:425px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignInHalvedRow .clsDivBktSignInFormInput {
+        display: block
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignInConfirmButtonContainer {
+        margin-top: 20px
+    }
+}
+
+/*signup.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer {
+    padding-left: 15px;
+    padding-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpSubHeaderNewAccount .clsDivBktSubHeaderExtraOptionIconText {
+    background-image: url("../../../images/widgets/default/signup/anadir_gr.png");
+    color: #666
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpSubHeaderAccount .clsDivBktSubHeaderExtraOptionIconText {
+    background-image: url("../../../images/widgets/default/signup/cuenta_bl.png");
+    color: #fff
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpSubHeaderAccount {
+    background-color: #717171;
+    color: #fff;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type=tel],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type=text] {
+    height: 25px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer textarea {
+    box-sizing: border-box;
+    height: 80px;
+    max-width: 100%;
+    min-height: 80px;
+    min-width: 100%;
+    padding-left: 10px;
+    padding-top: 7px;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer textarea {
+    -webkit-appearance: none;
+    -webkit-focus-ring-color: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpCommentsField,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpSubFooterContainer {
+    padding-right: 15px;
+    margin-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpAccept {
+    float: left
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpConfirmButtonContainer {
+    float: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpAcceptInput {
+    float: left;
+    margin-right: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpAcceptText,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktRGPDSignUpAcceptText {
+    float: left;
+    font-size: .867em;
+    line-height: 16px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type=checkbox] {
+    display: none
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type=checkbox]+label {
+    background: url("../../../images/widgets/default/services/check_02.png") no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-indent: -1000em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSignUpContainer input[type=checkbox]:checked+label {
+    background: url("../../../images/widgets/default/services/check_02.png") 0 -16px no-repeat
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktDefaultSignUpLinkAccept {
+    color: #e7522d;
+    text-decoration: none;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputCheckboxContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropContainer {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInput {
+    padding-right: 15px;
+    padding-top: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInput,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInputDropAndTextFieldSelect,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInputDropAndTextFieldSelect {
+    display: table-cell;
+    vertical-align: top
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextFieldSelect,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextFieldSelect select {
+    width: 85px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInputDropAndTextFieldSelect select,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInputDropAndTextFieldSelect select {
+    cursor: pointer;
+    color: #666
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextFieldInput {
+    display: table-cell;
+    padding-left: 15px;
+    vertical-align: top;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextContainer input[type=tel],
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputDropAndTextContainer input[type=text] {
+    margin-bottom: 0 !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputCheckboxContainer {
+    height: 25px;
+    padding-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputCheckboxInput {
+    width: 16px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSignupFormInputCheckboxLabel {
+    display: table-cell;
+    overflow: hidden;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInputDropContainer select,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpRow .clsDivBktSignupFormInputDropContainer select {
+    cursor: pointer;
+    color: #666;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError {
+    color: #fff !important;
+    background-color: #ee8369
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultFieldError {
+    color: #e7522d;
+    background-color: #f3f5f7;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: none;
+    font-size: .667em;
+    font-weight: 400;
+    line-height: 1em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpErrorContainer {
+    padding-right: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError::-webkit-input-placeholder {
+    color: #fff !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError:-moz-placeholder {
+    color: #fff !important;
+    opacity: 1 !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError::-moz-placeholder {
+    color: #fff !important;
+    opacity: 1 !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultInputError:-ms-input-placeholder {
+    color: #fff !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivReCaptcha {
+    width: 100%;
+    height: 65px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivReCaptcha .grecaptcha-badge {
+    margin-top: 20px !important;
+    width: 100% !important;
+    height: 100% !important;
+    box-shadow: none !important
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivReCaptcha .grecaptcha-badge .grecaptcha-logo {
+    height: 100%;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivReCaptcha .grecaptcha-badge .grecaptcha-logo iframe {
+    height: 100%;
+    width: 100%;
+    zoom: 0.15;
+    -moz-transform: scale(.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(.75);
+    -webkit-transform-origin: 0 0
+}
+
+@media only screen and (max-width:425px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktDefaultSignUpHalvedRow .clsDivBktSignupFormInput {
+        display: block
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSignUpConfirmButtonContainer {
+        margin-top: 20px
+    }
+}
+
+/*summary.css*/
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummaryContainer {
+    padding: 15px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryHeaderContainer,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummaryBodyContainer {
+    background-color: #e9f6d4;
+    display: table;
+    height: 40px;
+    min-height: 40px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryHeader {
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #81c04d;
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummaryBodyContent {
+    display: table-cell;
+    vertical-align: middle
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummaryText {
+    text-align: center;
+    color: #81c04d;
+    font-weight: 700;
+    font-size: 1.333em;
+    margin-bottom: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktWaitingListSummarySubText {
+    text-align: center;
+    color: #81c04d;
+    font-size: .867em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyContainer {
+    margin-top: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyTop {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-bottom: 1px solid #f3f5f7;
+    border-top: 1px solid #f3f5f7
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyTopLeft {
+    float: left
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyRight {
+    float: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktBodyTopLeftLabel,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktBodyTopRightLabel {
+    color: #e7522d;
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktDefaultSummaryContainer .clsTextOrange,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktBodyTopLeftLabelText,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idSpanBktBodyTopRightLabelText {
+    font-weight: 700
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyContent {
+    background-color: #fff;
+    display: table;
+    font-size: .867em;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsContainer {
+    display: table-cell;
+    vertical-align: top
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsContent,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoBottom,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoMiddle {
+    padding: 15px 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPrinterContainer {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 20px;
+    padding-top: 15px;
+    max-width: 19px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPrinter {
+    background-image: url("../../../images/widgets/default/summary/print.png");
+    width: 19px;
+    height: 17px;
+    cursor: pointer
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPayment {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 1px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPaymentContent {
+    margin-top: 10px;
+    font-size: 1em;
+    display: table;
+    margin-right: 20px;
+    margin-bottom: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktSummaryPaymentContentRow {
+    display: table-row
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktSummaryPaymentContentCell {
+    display: table-cell;
+    line-height: 1.2em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsBktSummaryPaymentContentCellEmpty {
+    width: 25px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyCancel {
+    padding-right: 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooter,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterLeft,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooter {
+    margin-top: 20px;
+    font-size: .733em;
+    display: table;
+    width: 100%
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterRight,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterLeft,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterRight,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyCancel {
+    display: table-cell;
+    vertical-align: bottom
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterRight,
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterRight {
+    text-align: right
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoTop {
+    background-color: #fff;
+    padding: 15px 20px;
+    font-size: .867em
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBackButton {
+    padding: 10px;
+    white-space: nowrap
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentRow {
+    margin-bottom: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentRowInlineBlockData {
+    display: inline-block
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentRowMarginRightData {
+    margin-right: 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentRowMarginLeftData {
+    margin-left: 20px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentNextRow {
+    margin-top: 5px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentsContent {
+    border-bottom: 1px solid #f3f5f7;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktSummaryAppointmentFirst {
+    border: none
+}
+
+@media only screen and (min-width:320px) and (max-width:570px),
+only screen and (min-width:320px) and (max-width:480px),
+only screen and (max-width:319px) {
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyTopLeft {
+        float: none
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBodyRight {
+        float: none;
+        margin-top: 5px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterLeft,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterRight,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterLeft,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterRight {
+        display: block
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktSummaryFooterRight,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idBktWaitingListSummaryFooterRight {
+        margin-top: 15px
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryBackButton {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsContainer {
+        display: table-footer-group
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPrinterContainer {
+        display: table-header-group
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryPrinter {
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        float: right;
+        padding: 20px 20px 0
+    }
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsContent,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoBottom,
+    #idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktSummaryAppointmentsInfoMiddle {
+        padding: 0 20px 15px
+    }
+}

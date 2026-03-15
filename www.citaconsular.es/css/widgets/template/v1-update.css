@@ -1,0 +1,9 @@
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer .clsDivBktAgendaImage {
+    background-size: cover !important;
+}
+
+#idBktWidgetBody #idBktWidgetDefaultBodyContainer #idDivBktServicesContainer #idListServices .clsBktServiceDescription {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding-right: 15px !important;
+}
