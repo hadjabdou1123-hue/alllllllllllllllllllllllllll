@@ -1,0 +1,5 @@
+Selenium
+python-telegram-bot
+pytesseract
+Pillow
+opencv-python
